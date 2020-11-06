@@ -33,11 +33,10 @@ function oneThroughFive() {
 oneThroughFive()
 ```
 
-
-## Katas
-
 ### Nesse katas nós não vamos utilizar métodos de iteração de array(forEach, map, filter, reduce, sort...) e nem (math min, math max).
 ### Vamos utilizar apenas estruturas de repetição como (while, for ou do while)
+
+## Katas
 
 1.  Retornar os números de 1 a 20. (1, 2, 3,…, 19, 20)
 2.  Retornar os números pares de 1 a 20. (2, 4, 6,…, 18, 20)
