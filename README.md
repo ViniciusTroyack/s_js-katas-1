@@ -5,7 +5,7 @@
 Um [kata](https://en.wikipedia.org/wiki/Kata_(programming)) é um exercício individual onde você pratica uma habilidade de programação repetidamente. Hoje você irá praticar o uso de loops, condicionais, e expressões JavaScript através de uma série de katas.
 
 Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-1), faça o fork e clone o repo. 
-Preencha o código que está faltando em cada função dentro do arquivo `katas1.js`. Use um loop `for` ou `while` dentro de cada função. Use `console.log()` para exibir seu resultado no console. Cada kata completado corretamente vale 1 ponto.
+Preencha o código que está faltando em cada função dentro do arquivo `katas1.js`. Use um loop `for` ou `while` dentro de cada função. Cada kata completado corretamente vale 1 ponto.
 
 ## Exemplo
 
@@ -19,18 +19,21 @@ function oneThroughFive() {
 }
 ```
 
-Para testar as funções, você precisa chamá-las. Seguindo o exemplo acima, escreveríamos `oneThroughFive()` para chamar a função `oneThroughFive`. Para ver o que esta função retorna no console, podemos escrever `console.log(oneThroughFive())`. Então, no exemplo acima, a função final e a chamada da função subsequente seria algo assim:
+Para testar as funções, você precisa chamá-las. Para ver o que esta função retorna no console, podemos escrever `console.log(oneThroughFive())`.  Seguindo o exemplo acima, escreveríamos `oneThroughFive()` para chamar a função `oneThroughFive`.Então, a função final e a chamada da função subsequente seria algo assim:
 
 ```js
 function oneThroughFive() {
     
+    let meuRetorno = [];
+
     for (let counter = 1; counter <= 5; counter++) {
-        console.log(counter)
+        //código
     }
     
+    return meuRetorno;
 }
 
-oneThroughFive()
+console.log(oneThroughFive());
 ```
 
 ### Nesse katas nós não vamos utilizar métodos de iteração de array(forEach, map, filter, reduce, sort...) e nem (math min, math max).
