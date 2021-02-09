@@ -2,7 +2,7 @@ function oneThroughTwenty() {
     
    /* Your code goes below
    Write a for or a while loop
-   console.log() the result*/
+   return the result*/
     
 }
 
@@ -12,7 +12,7 @@ function evensToTwenty() {
     
    /* Your code goes below
    Write a for or a while loop
-   console.log() the result */
+   return the result */
   
 }
 
@@ -22,7 +22,7 @@ function oddsToTwenty() {
     
   /* Your code goes below
   Write a for or a while loop
-  console.log() the result */
+  return the result */
    
 }
 
@@ -32,7 +32,7 @@ function multiplesOfFive() {
     
   /* Your code goes below
   Write a for or a while loop
-  console.log() the result */
+  return the result */
 
 }
 
@@ -42,7 +42,7 @@ function squareNumbers() {
     
  /* Your code goes below
   Write a for or a while loop
-  console.log() the result */
+  return the result */
     
 }
 
@@ -52,7 +52,7 @@ function countingBackwards() {
     
   /* Your code goes below
   Write a for or a while loop
-  console.log() the result */
+  return the result */
 }
 
 //call function countingBackwards
@@ -61,7 +61,7 @@ function evenNumbersBackwards() {
     
  /* Your code goes below
   Write a for or a while loop
-  console.log() the result */
+  return the result */
 }
 
 //call function evenNumbersBackwards
@@ -70,7 +70,7 @@ function oddNumbersBackwards() {
     
  /* Your code goes below
   Write a for or a while loop
-  console.log() the result */
+  return the result */
 }
 
 //call function oddNumbersBackwards
@@ -79,7 +79,7 @@ function multiplesOfFiveBackwards() {
     
  /* Your code goes below
   Write a for or a while loop
-  console.log() the result */
+  return the result */
 }
 
 //call function multiplesOfFiveBackwards
@@ -88,7 +88,7 @@ function squareNumbersBackwards() {
     
    /* Your code goes below
   Write a for or a while loop
-  console.log() the result */
+  return the result */
 }
 
 //call function squareNumbersBackwards
