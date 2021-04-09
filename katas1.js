@@ -71,14 +71,30 @@
 
 // multiplesOfFive();
 
-//function squareNumbers() {
+function squareNumbers() {
 
-/* Your code goes below
- Write a for or a while loop
- return the result */
+  /* Your code goes below
+   Write a for or a while loop
+   return the result */
 
-//}
+  let perfSquares = []
+  let a = 1
+  let b = 100
 
+  for (prftSquare = a; prftSquare <= b; prftSquare++) {
+
+    for (number = 1; number * number <= prftSquare; number++) {
+
+      if (number * number === prftSquare) {
+        perfSquares.push(prftSquare)
+        // console.log("Esse é um quadrado perfeito: " + prftSquare)
+      }
+    }
+  }
+  return perfSquares
+}
+
+squareNumbers();
 
 // function countingBackwards() {
 
@@ -137,24 +153,25 @@
 
 // oddNumbersBackwards();
 
-function multiplesOfFiveBackwards() {
+// function multiplesOfFiveBackwards() {
 
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+//   /* Your code goes below
+//    Write a for or a while loop
+//    return the result */
 
-  let mulFiveBackwards = []
-    let n = 100
-  
-    while (n <= 100 && n >=1) {
-      if (n % 5 == 0) {
-        mulFiveBackwards.push(n)
-      }
-      n--
-    }
-    return mulFiveBackwards
-}
- multiplesOfFiveBackwards ();
+//   let mulFiveBackwards = []
+//   let n = 100
+
+//   while (n <= 100 && n >= 1) {
+//     if (n % 5 == 0) {
+//       mulFiveBackwards.push(n)
+//     }
+//     n--
+//   }
+//   return mulFiveBackwards
+// }
+
+// multiplesOfFiveBackwards();
 
 // function squareNumbersBackwards() {
 
