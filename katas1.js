@@ -71,30 +71,30 @@
 
 // multiplesOfFive();
 
-function squareNumbers() {
+// function squareNumbers() {
 
-  /* Your code goes below
-   Write a for or a while loop
-   return the result */
+//   /* Your code goes below
+//    Write a for or a while loop
+//    return the result */
 
-  let perfSquares = []
-  let a = 1
-  let b = 100
+//   let perfSquares = []
+//   let a = 1
+//   let b = 100
 
-  for (prftSquare = a; prftSquare <= b; prftSquare++) {
+//   for (prftSquare = a; prftSquare <= b; prftSquare++) {
 
-    for (number = 1; number * number <= prftSquare; number++) {
+//     for (number = 1; number * number <= prftSquare; number++) {
 
-      if (number * number === prftSquare) {
-        perfSquares.push(prftSquare)
-        // console.log("Esse é um quadrado perfeito: " + prftSquare)
-      }
-    }
-  }
-  return perfSquares
-}
+//       if (number * number === prftSquare) {
+//         perfSquares.push(prftSquare)
+//         // console.log("Esse é um quadrado perfeito: " + prftSquare)
+//       }
+//     }
+//   }
+//   return perfSquares
+// }
 
-squareNumbers();
+// squareNumbers();
 
 // function countingBackwards() {
 
@@ -173,11 +173,26 @@ squareNumbers();
 
 // multiplesOfFiveBackwards();
 
-// function squareNumbersBackwards() {
+function squareNumbersBackwards() {
 
-//    /* Your code goes below
-//   Write a for or a while loop
-//   return the result */
-// }
+  //    /* Your code goes below
+  //   Write a for or a while loop
+  //   return the result */
 
-// //call function squareNumbersBackwards
+  let perfSquaresBackwards = []
+  let a = 100
+  let b = 01
+
+  for (prftSquareBackward = a; prftSquareBackward >= b; prftSquareBackward--) {
+
+    for (number = 1; number * number <= prftSquareBackward; number++) {
+
+      if (number * number === prftSquareBackward) {
+        perfSquaresBackwards.push(prftSquareBackward)
+      }
+    }
+  }
+  return perfSquaresBackwards
+}
+
+squareNumbersBackwards();
