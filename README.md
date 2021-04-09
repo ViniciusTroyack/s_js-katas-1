@@ -19,7 +19,7 @@ function oneThroughFive() {
 }
 ```
 
-Para testar as funções, você precisa chamá-las. Para ver o que esta função retorna no console, podemos chamar a função `oneThroughFive()` que o return mostra os resultados. Ficando da seguinte forma:
+Para testar as funções, você precisa chamá-las. Para ver o que esta função retorna no console, podemos chamar a função `oneThroughFive()` dentro do console.log() que então o return mostrará os resultados. Ficando da seguinte forma:
 
 ```js
 function oneThroughFive() {
@@ -33,7 +33,7 @@ function oneThroughFive() {
     return meuRetorno;
 }
 
-oneThroughFive();
+console.log(oneThroughFive());
 ```
 
 ### Nesse katas nós não vamos utilizar métodos de iteração de array(forEach, map, filter, reduce, sort...) e nem (math min, math max).
