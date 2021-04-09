@@ -32,34 +32,44 @@
 
 // evensToTwenty();
 
-function oddsToTwenty() {
-
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-  let oddNumbers = []
-    let n = 0
-    while (n <= 20) {
-      if (n % 2) {
-        oddNumbers.push(n)
-      }
-      n++
-    }
-    return oddNumbers
-
-}
-
-oddsToTwenty();
-
-// function multiplesOfFive() {
+// function oddsToTwenty() {
 
 //   /* Your code goes below
 //   Write a for or a while loop
 //   return the result */
+//   let oddNumbers = []
+//   let n = 0
+//   while (n <= 20) {
+//     if (n % 2) {
+//       oddNumbers.push(n)
+//     }
+//     n++
+//   }
+//   return oddNumbers
 
 // }
 
-// //call function multiplesOfFive
+// oddsToTwenty();
+
+function multiplesOfFive() {
+
+  /* Your code goes below
+  Write a for or a while loop
+  return the result */
+  let mulFive = []
+  let n = 0
+
+  while (n <= 100) {
+    if (n % 5 == 0) {
+      mulFive.push(n)
+    }
+    n++
+  }
+  return mulFive
+
+}
+
+multiplesOfFive();
 
 // function squareNumbers() {
 
