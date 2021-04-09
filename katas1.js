@@ -1,28 +1,36 @@
-function oneThroughTwenty() {
+// function oneThroughTwenty() {
+
+//   /* Your code goes below
+//   Write a for or a while loop
+//   return the result*/
+//   let numbers = []
+//   let n = 1
+//   while (numbers.length < 20) {
+//     numbers.push(n)
+//     n++
+//   }
+//   return numbers
+// }
+
+// oneThroughTwenty();
+
+function evensToTwenty() {
 
   /* Your code goes below
   Write a for or a while loop
-  return the result*/
-  let numbers = []
-  let n = 1
-  while (numbers.length < 20) {
-    numbers.push(n)
+  return the result */
+  let evenNumbers = []
+  let n = 0
+  while (n <= 20) {
+    if (n % 2 == 0) {
+      evenNumbers.push(n)
+    }
     n++
   }
-  return numbers
+  return evenNumbers
 }
 
-oneThroughTwenty();
-
-// function evensToTwenty() {
-
-//    /* Your code goes below
-//    Write a for or a while loop
-//    return the result */
-
-// }
-
-//evensToTwenty();
+evensToTwenty();
 
 // function oddsToTwenty() {
 
