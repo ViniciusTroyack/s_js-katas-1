@@ -80,32 +80,42 @@
 //}
 
 
-function countingBackwards() {
+// function countingBackwards() {
 
-//   /* Your code goes below
-//   Write a for or a while loop
-//   return the result */
+// //   /* Your code goes below
+// //   Write a for or a while loop
+// //   return the result */
 
-let numbers = []
-  let n = 20
-  while (numbers.length < 20) {
-    numbers.push(n)
-    n--
-  }
-  return numbers
-}
+// let numbers = []
+//   let n = 20
+//   while (numbers.length < 20) {
+//     numbers.push(n)
+//     n--
+//   }
+//   return numbers
+// }
 
 
-countingBackwards();
+// countingBackwards();
 
-// function evenNumbersBackwards() {
+function evenNumbersBackwards() {
 
 //  /* Your code goes below
 //   Write a for or a while loop
 //   return the result */
-// }
 
-// //call function evenNumbersBackwards
+let evenBackwards = []
+  let n = 20
+  while (n <= 20 && n >=1) {
+    if (n % 2 == 0) {
+      evenBackwards.push(n)
+    }
+    n--
+  }
+  return evenBackwards
+}
+
+evenNumbersBackwards();
 
 // function oddNumbersBackwards() {
 
