@@ -51,44 +51,52 @@
 
 // oddsToTwenty();
 
-function multiplesOfFive() {
-
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-  let mulFive = []
-  let n = 0
-
-  while (n <= 100) {
-    if (n % 5 == 0) {
-      mulFive.push(n)
-    }
-    n++
-  }
-  return mulFive
-
-}
-
-multiplesOfFive();
-
-// function squareNumbers() {
-
-//  /* Your code goes below
-//   Write a for or a while loop
-//   return the result */
-
-// }
-
-// //call function squareNumbers
-
-// function countingBackwards() {
+// function multiplesOfFive() {
 
 //   /* Your code goes below
 //   Write a for or a while loop
 //   return the result */
+//   let mulFive = []
+//   let n = 0
+
+//   while (n <= 100) {
+//     if (n % 5 == 0) {
+//       mulFive.push(n)
+//     }
+//     n++
+//   }
+//   return mulFive
+
 // }
 
-// //call function countingBackwards
+// multiplesOfFive();
+
+//function squareNumbers() {
+
+  /* Your code goes below
+   Write a for or a while loop
+   return the result */
+ 
+//}
+
+
+function countingBackwards() {
+
+//   /* Your code goes below
+//   Write a for or a while loop
+//   return the result */
+
+let numbers = []
+  let n = 20
+  while (numbers.length < 20) {
+    numbers.push(n)
+    n--
+  }
+  return numbers
+}
+
+
+countingBackwards();
 
 // function evenNumbersBackwards() {
 
