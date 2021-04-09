@@ -117,34 +117,44 @@
 
 // evenNumbersBackwards();
 
-function oddNumbersBackwards() {
+// function oddNumbersBackwards() {
 
-  /* Your code goes below
-   Write a for or a while loop
-   return the result */
+//   /* Your code goes below
+//    Write a for or a while loop
+//    return the result */
 
-  let oddBackwards = []
-  let n = 20
-  while (n <= 20 && n >= 1) {
-    if (n % 2) {
-      oddBackwards.push(n)
-    }
-    n--
-  }
-  return oddBackwards
+//   let oddBackwards = []
+//   let n = 20
+//   while (n <= 20 && n >= 1) {
+//     if (n % 2) {
+//       oddBackwards.push(n)
+//     }
+//     n--
+//   }
+//   return oddBackwards
 
-}
-
-oddNumbersBackwards();
-
-// function multiplesOfFiveBackwards() {
-
-//  /* Your code goes below
-//   Write a for or a while loop
-//   return the result */
 // }
 
-// //call function multiplesOfFiveBackwards
+// oddNumbersBackwards();
+
+function multiplesOfFiveBackwards() {
+
+ /* Your code goes below
+  Write a for or a while loop
+  return the result */
+
+  let mulFiveBackwards = []
+    let n = 100
+  
+    while (n <= 100 && n >=1) {
+      if (n % 5 == 0) {
+        mulFiveBackwards.push(n)
+      }
+      n--
+    }
+    return mulFiveBackwards
+}
+ multiplesOfFiveBackwards ();
 
 // function squareNumbersBackwards() {
 
